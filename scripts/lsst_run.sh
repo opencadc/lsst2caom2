@@ -1,7 +1,7 @@
 #!/bin/bash
 
 COLLECTION="lsst"
-IMAGE="opencadc/${COLLECTION}2caom2"
+IMAGE="opencadc-metadata-curation/${COLLECTION}2caom2"
 
 echo "Get a proxy certificate"
 cp $HOME/.ssl/cadcproxy.pem ./ || exit $?
